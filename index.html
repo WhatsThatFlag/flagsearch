@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flag Search Engine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Flag Search Engine</h1>
+
+  <div id="main-container">
+    <!-- Left Side: Categories and Options -->
+    <div id="left-panel">
+      <!-- Search Bar -->
+      <div id="search-bar-container">
+        <div id="search-input-container">
+          <div id="tag-container">
+            <!-- Tags will be displayed here -->
+          </div>
+          <input type="text" id="search-bar" placeholder="Name or Tag">
+        </div>
+      </div>
+
+      <!-- Deselect All Button -->
+      <button id="deselect-button">Deselect All</button>
+
+      <!-- Hide Options -->
+      <div id="hide-options-container">
+        <div class="hide-option">
+          <input type="checkbox" id="hide-offensive" checked>
+          <label for="hide-offensive">Hide Potentially Offensive</label>
+        </div>
+        <div class="hide-option">
+          <input type="checkbox" id="hide-historical">
+          <label for="hide-historical">Hide Historical</label>
+        </div>
+      </div>
+
+      <!-- Categories -->
+      <div id="category-container">
+        <!-- Categories will be dynamically loaded here -->
+      </div>
+    </div>
+
+    <!-- Right Side: Flag List -->
+    <div id="right-panel">
+      <!-- Matching Flags Count -->
+      <div id="matching-flags-count">
+        <!-- Matching flags count will be displayed here -->
+      </div>
+
+      <!-- Results Container -->
+      <div id="results-container">
+        <!-- Search results will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup Overlay -->
+  <div id="popup-overlay">
+    <div id="popup-content">
+      <span id="popup-close">&times;</span>
+      <!-- Popup content will be dynamically inserted here -->
+    </div>
+  </div>
+
+  <!-- Total Flags Counter -->
+  <div id="total-flags-counter">
+    <div class="tooltip">
+      <h4>Flags by Region:</h4>
+      <!-- Regional counts will be inserted here -->
+    </div>
+  </div>
+
+  <!-- Force Reload Button -->
+  <button id="force-reload-button">Force Reload</button>
+
+  <!-- Include main script -->
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,975 @@
+{
+"us": {
+  "name": "United States",
+  "subtext": "1960-Present",
+  "img": "flagimg/us.png",
+  "cat": "color:red, color:white, color:blue, item:5star, pattern:banded, shape:horizontal, type:country, region:namerica",
+  "terms": "USA, America"
+},
+"pl": {
+  "name": "Poland",
+   "subtext": "1919-Present",
+   "img": "flagimg/pl.png",
+   "cat": "color:red, color:white, pattern:banded, shape:horizontal, type:country, region:europe",
+   "terms": "Polen"
+},
+"de": {
+  "name": "Germany",
+  "subtext": "1949-Present",
+  "img": "flagimg/de.png",
+  "cat": "color:red, color:yellow, color:black, pattern:banded, shape:horizontal, type:country, region:europe",
+  "terms": "Deutschland"
+},
+"al": {
+  "name": "Albania",
+  "subtext": "1992-Present",
+  "img": "flagimg/al.png",
+  "cat": "region:europe,color:red,color:black,item:animal,item:emblem,type:country,pattern:solid"
+},
+"mars": {
+  "name": "Mars",
+  "subtext": "1999 (Pascal Lee)",
+  "img": "flagimg/mars.png",
+  "cat": "region:other,color:red,color:green,color:blue,shape:vertical,type:planet,pattern:banded",
+  "terms": "Martian"
+},
+"ad": {
+  "name": "Andorra",
+  "subtext": "1866-Present",
+  "img": "flagimg/ad.png",
+  "cat": "region:europe,color:red,color:yellow,color:blue,color:white,color:brown,shape:vertical,item:text,item:animal,item:emblem,type:country,pattern:banded"
+},
+"at": {
+  "name": "Austria",
+  "subtext": "1945-Present",
+  "img": "flagimg/at.png",
+  "cat": "region:europe,color:red,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"by": {
+  "name": "Belarus",
+  "subtext": "1951-Present",
+  "img": "flagimg/by.png",
+  "cat": "region:europe,color:red,color:green,color:white,shape:horizontal,shape:vertical,type:country,pattern:banded"
+},
+"be": {
+  "name": "Belgium",
+  "subtext": "1831-Present",
+  "img": "flagimg/be.png",
+  "cat": "region:europe,color:red,color:yellow,color:black,shape:vertical,type:country,pattern:banded"
+},
+"ba": {
+  "name": "Bosnia and Herzegovina",
+  "subtext": "1998-Present",
+  "img": "flagimg/ba.png",
+  "cat": "region:europe,color:yellow,color:blue,color:white,shape:triangle,item:5star,type:country"
+},
+"bg": {
+  "name": "Bulgaria",
+  "subtext": "1990-Present",
+  "img": "flagimg/bg.png",
+  "cat": "region:europe,color:red,color:green,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"hr": {
+  "name": "Croatia",
+  "subtext": "1990-Present",
+  "img": "flagimg/hr.png",
+  "cat": "region:europe,color:red,color:yellow,color:blue,color:white,shape:horizontal,item:animal,item:emblem,type:country,pattern:banded,pattern:checkered"
+},
+"cy": {
+  "name": "Cyprus",
+  "subtext": "2006-Present",
+  "img": "flagimg/cy.png",
+  "cat": "region:europe,region:asia,color:orange,color:green,color:white,item:emblem,type:country,pattern:solid"
+},
+"cz": {
+  "name": "Czechia",
+  "subtext": "1920-Present",
+  "img": "flagimg/cz.png",
+  "cat": "region:europe,color:red,color:blue,color:white,shape:horizontal,shape:chevron,shape:triangle,type:country,pattern:banded"
+},
+"dk": {
+  "name": "Denmark",
+  "subtext": "1625-Present",
+  "img": "flagimg/dk.png",
+  "cat": "region:europe,color:red,color:white,shape:nordic,shape:cross,type:country"
+},
+"ee": {
+  "name": "Estonia",
+  "subtext": "1990-Present",
+  "img": "flagimg/ee.png",
+  "cat": "region:europe,color:blue,color:white,color:black,shape:horizontal,type:country,pattern:banded"
+},
+"fi": {
+  "name": "Finland",
+  "subtext": "1918-Present",
+  "img": "flagimg/fi.png",
+  "cat": "region:europe,color:blue,color:white,shape:nordic,shape:cross,type:country"
+},
+"fr": {
+  "name": "France",
+  "subtext": "2020-Present",
+  "img": "flagimg/fr.png",
+  "cat": "region:europe,region:samerica,color:red,color:blue,color:white,shape:vertical,type:country,pattern:banded"
+},
+"gr": {
+  "name": "Greece",
+  "subtext": "1978-Present",
+  "img": "flagimg/gr.png",
+  "cat": "region:europe,color:blue,color:white,shape:horizontal,shape:cross,type:country,pattern:banded"
+},
+"hu": {
+  "name": "Hungary",
+  "subtext": "1957-Present",
+  "img": "flagimg/hu.png",
+  "cat": "region:europe,color:red,color:green,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"is": {
+  "name": "Iceland",
+  "subtext": "1944-Present",
+  "img": "flagimg/is.png",
+  "cat": "region:europe,color:red,color:blue,color:white,shape:nordic,shape:cross,type:country"
+},
+"ie": {
+  "name": "Ireland",
+  "subtext": "1937-Present",
+  "img": "flagimg/ie.png",
+  "cat": "region:europe,color:orange,color:green,color:white,shape:vertical,type:country,pattern:banded"
+},
+"it": {
+  "name": "Italy",
+  "subtext": "1946-Present",
+  "img": "flagimg/it.png",
+  "cat": "region:europe,color:red,color:green,color:white,shape:vertical,type:country,pattern:banded"
+},
+"lv": {
+  "name": "Latvia",
+  "subtext": "1990-Present",
+  "img": "flagimg/lv.png",
+  "cat": "region:europe,color:red,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"li": {
+  "name": "Liechtenstein",
+  "subtext": "1937-Present",
+  "img": "flagimg/li.png",
+  "cat": "region:europe,color:red,color:yellow,color:blue,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"lt": {
+  "name": "Lithuania",
+  "subtext": "2004-Present",
+  "img": "flagimg/lt.png",
+  "cat": "region:europe,color:red,color:yellow,color:green,shape:horizontal,type:country,pattern:banded"
+},
+"lu": {
+  "name": "Luxembourg",
+  "subtext": "1993-Present",
+  "img": "flagimg/lu.png",
+  "cat": "region:europe,color:red,color:blue,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"mt": {
+  "name": "Malta",
+  "subtext": "1964-Present",
+  "img": "flagimg/mt.png",
+  "cat": "region:europe,color:red,color:white,shape:vertical,type:country,pattern:banded"
+},
+"md": {
+  "name": "Moldova",
+  "subtext": "1990-Present",
+  "img": "flagimg/md.png",
+  "cat": "region:europe,color:red,color:yellow,color:blue,shape:vertical,item:animal,item:emblem,type:country,pattern:banded"
+},
+"mc": {
+  "name": "Monaco",
+  "subtext": "1881-Present",
+  "img": "flagimg/mc.png",
+  "cat": "region:europe,color:red,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"me": {
+  "name": "Montenegro",
+  "subtext": "2004-Present",
+  "img": "flagimg/me.png",
+  "cat": "region:europe,color:red,color:yellow,color:green,color:blue,item:animal,item:emblem,type:country"
+},
+"nl": {
+  "name": "Netherlands",
+  "subtext": "1937-Present",
+  "img": "flagimg/nl.png",
+  "cat": "region:europe,color:red,color:blue,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"mk": {
+  "name": "North Macedonia",
+  "subtext": "1995-Present",
+  "img": "flagimg/mk.png",
+  "cat": "region:europe,color:red,color:yellow,shape:horizontal,shape:vertical,item:sun,shape:diagonal,shape:circle,type:country"
+},
+"no": {
+  "name": "Norway",
+  "subtext": "1899-Present",
+  "img": "flagimg/no.png",
+  "cat": "region:europe,color:red,color:blue,color:white,shape:nordic,shape:cross,type:country"
+},
+"pt": {
+  "name": "Portugal",
+  "subtext": "1911-Present",
+  "img": "flagimg/pt.png",
+  "cat": "color:red,color:yellow,color:green,color:blue,color:white,shape:vertical,item:emblem,type:country,pattern:banded"
+},
+"ro": {
+  "name": "Romania",
+  "subtext": "1989-Present",
+  "img": "flagimg/ro.png",
+  "cat": "region:europe,color:red,color:yellow,color:blue,shape:vertical,type:country,pattern:banded"
+},
+"ru": {
+  "name": "Russia",
+  "subtext": "1993-Present",
+  "img": "flagimg/ru.png",
+  "cat": "region:europe,region:asia,color:red,color:blue,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"ru_democratic": {
+  "name": "Russia (Anti-War)",
+  "subtext": "2022-Present",
+  "img": "flagimg/ru_democratic.png",
+  "cat": "region:europe,region:asia,color:blue,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"sm": {
+  "name": "San Marino",
+  "subtext": "1862-Present",
+  "img": "flagimg/sm.png",
+  "cat": "region:europe,color:yellow,color:green,color:blue,color:white,color:black,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"rs": {
+  "name": "Serbia",
+  "subtext": "2010-Present",
+  "img": "flagimg/rs.png",
+  "cat": "region:europe,color:red,color:yellow,color:blue,color:white,color:black,shape:horizontal,item:animal,item:emblem,type:country,pattern:banded"
+},
+"sk": {
+  "name": "Slovakia",
+  "subtext": "1992-Present",
+  "img": "flagimg/sk.png",
+  "cat": "region:europe,color:red,color:blue,color:white,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"si": {
+  "name": "Slovenia",
+  "subtext": "1991-Present",
+  "img": "flagimg/si.png",
+  "cat": "region:europe,color:red,color:yellow,color:blue,color:white,shape:horizontal,item:3star,item:emblem,type:country,pattern:banded"
+},
+"es": {
+  "name": "Spain",
+  "subtext": "1981-Present",
+  "img": "flagimg/es.png",
+  "cat": "region:europe,color:red,color:yellow,color:green,color:pink,color:white,color:black,shape:horizontal,shape:cross,item:animal,item:emblem,type:country,pattern:banded"
+},
+"es_nocoat": {
+  "name": "Spain (No Coat of Arms)",
+  "subtext": "1981-Present",
+  "img": "flagimg/es_nocoat.png",
+  "cat": "region:europe,color:red,color:yellow,shape:horizontal,type:country,pattern:banded"
+},
+"se": {
+  "name": "Sweden",
+  "subtext": "1906-Present",
+  "img": "flagimg/se.png",
+  "cat": "region:europe,color:yellow,color:blue,shape:nordic,shape:cross,type:country"
+},
+"ch": {
+  "name": "Switzerland",
+  "subtext": "1889-Present",
+  "img": "flagimg/ch.png",
+  "cat": "color:red,color:white,shape:cross,type:country"
+},
+"ua": {
+  "name": "Ukraine",
+  "subtext": "1992-Present",
+  "img": "flagimg/ua.png",
+  "cat": "region:europe,color:yellow,color:blue,shape:horizontal,type:country,pattern:banded"
+},
+"gb": {
+  "name": "United Kingdom",
+  "subtext": "1801-Present",
+  "img": "flagimg/gb.png",
+  "cat": "region:namerica,region:europe,region:asia,region:africa,region:samerica,color:red,color:blue,color:white,shape:horizontal,shape:vertical,shape:cross,type:country"
+},
+"va": {
+  "name": "Vatican City",
+  "subtext": "1929-Present",
+  "img": "flagimg/va.png",
+  "cat": "color:red,color:yellow,color:white,color:black,color:gray,shape:vertical,item:emblem,type:country,type:city,pattern:banded"
+},
+"us_nh_conway": {
+  "name": "Conway, NH [USA]",
+  "subtext": "2024-Present (Unofficial)",
+  "img": "flagimg/us_nh_conway.png",
+  "cat": "region:namerica,color:yellow,color:blue,color:white,shape:triangle,item:1star,type:town,type:unofficial"
+},
+"us_en": {
+  "name": "New England [USA]",
+  "subtext": "1625-Present",
+  "img": "flagimg/us_en.png",
+  "cat": "region:namerica,color:red,color:green,color:white,item:emblem,pattern:solid"
+},
+"england": {
+  "name": "England",
+  "subtext": "1801-Present",
+  "img": "flagimg/england.png",
+  "cat": "region:europe,color:red,color:white,shape:horizontal,shape:vertical,shape:cross,type:province,pattern:solid"
+},
+"wales": {
+  "name": "Wales",
+  "subtext": "1959-Present",
+  "img": "flagimg/wales.png",
+  "cat": "region:europe,color:red,color:green,color:white,color:black,shape:horizontal,shape:vertical,shape:cross,item:animal,type:province,pattern:banded"
+},
+"ar": {
+  "name": "Argentina",
+  "subtext": "1816-Present",
+  "img": "flagimg/ar.png",
+  "cat": "region:samerica,color:yellow,color:blue,color:white,shape:horizontal,shape:circle,item:1star,pattern:banded"
+},
+"zl": {
+  "name": "Zalia",
+  "subtext": "2022-Present",
+  "img": "flagimg/zl.png",
+  "cat": "region:namerica,color:orange,color:yellow,color:blue,shape:diagonal,shape:chevron,shape:cross,shape:triangle,type:micro"
+},
+"bo": {
+  "name": "Bolivia",
+  "subtext": "1851-Present",
+  "img": "flagimg/bo.png",
+  "cat": "region:samerica,color:red,color:yellow,color:green,shape:horizontal,type:country,pattern:banded"
+},
+"br": {
+  "name": "Brazil",
+  "subtext": "1992-Present",
+  "img": "flagimg/br.png",
+  "cat": "region:samerica,color:yellow,color:green,color:blue,color:white,shape:circle,item:5star,item:text,type:country,pattern:solid"
+},
+"cl": {
+  "name": "Chile",
+  "subtext": "1817-Present",
+  "img": "flagimg/cl.png",
+  "cat": "region:samerica,color:red,color:blue,color:white,shape:horizontal,item:1star,type:country,pattern:banded"
+},
+"co": {
+  "name": "Colombia",
+  "subtext": "1861-Present",
+  "img": "flagimg/co.png",
+  "cat": "region:samerica,color:red,color:yellow,color:blue,shape:horizontal,type:country,pattern:banded"
+},
+"ec": {
+  "name": "Ecuador",
+  "subtext": "1900-Present",
+  "img": "flagimg/ec.png",
+  "cat": "region:samerica,color:red,color:yellow,color:green,color:blue,color:white,color:black,color:brown,color:gray,shape:horizontal,item:1star,item:animal,item:emblem,type:country,pattern:banded"
+},
+"ve": {
+  "name": "Venezuela",
+  "subtext": "2006-Present",
+  "img": "flagimg/ve.png",
+  "cat": "region:samerica,color:red,color:yellow,color:blue,color:white,shape:horizontal,item:5star,type:country,pattern:banded"
+},
+"gy": {
+  "name": "Guyana",
+  "subtext": "1966-Present",
+  "img": "flagimg/gy.png",
+  "cat": "region:samerica,color:red,color:yellow,color:green,color:white,color:black,shape:chevron,shape:triangle,type:country"
+},
+"py": {
+  "name": "Paraguay",
+  "subtext": "2013-Present",
+  "img": "flagimg/py.png",
+  "cat": "region:samerica,color:red,color:yellow,color:green,color:blue,color:white,color:black,shape:horizontal,shape:circle,item:1star,item:text,type:country,pattern:banded"
+},
+"pe": {
+  "name": "Peru",
+  "subtext": "1825-Present",
+  "img": "flagimg/pe.png",
+  "cat": "region:samerica,color:red,color:white,shape:vertical,type:country,pattern:banded"
+},
+"sr": {
+  "name": "Suriname",
+  "subtext": "1975-Present",
+  "img": "flagimg/sr.png",
+  "cat": "color:red,color:yellow,color:green,color:white,shape:horizontal,item:1star,type:country,pattern:banded"
+},
+"uy": {
+  "name": "Uruguay",
+  "subtext": "1830-Present",
+  "img": "flagimg/uy.png",
+  "cat": "region:samerica,color:yellow,color:blue,color:white,color:brown,shape:horizontal,item:1star,type:country,pattern:banded"
+},
+"scotland": {
+  "name": "Scotland",
+  "subtext": "1507-Present",
+  "img": "flagimg/scotland.png",
+  "cat": "region:europe,color:blue,color:white,shape:diagonal,shape:cross,type:province"
+},
+"gl": {
+  "name": "Greenland",
+  "subtext": "1985-Present",
+  "img": "flagimg/gl.png",
+  "cat": "region:namerica,color:red,color:white,shape:horizontal,shape:circle,type:territory,pattern:banded"
+},
+"antarctica": {
+  "name": "Antarctica",
+  "subtext": "2018-Present",
+  "img": "flagimg/antarctica.png",
+  "cat": "region:other,color:blue,color:white,shape:horizontal,shape:triangle,type:country,pattern:banded"
+},
+"sealand": {
+  "name": "Sealand",
+  "subtext": "1967-Present",
+  "img": "flagimg/sealand.png",
+  "cat": "region:europe,color:red,color:white,color:black,shape:diagonal,type:country,type:micro,pattern:banded"
+},
+"trump2024": {
+  "name": "x",
+  "subtext": "2024",
+  "img": "flagimg/x",
+  "cat": "region:namerica,color:red,color:blue,color:white,item:5star,item:text,type:political,pattern:solid"
+},
+"lgb": {
+  "name": "LGB Pride",
+  "subtext": "1978-Present",
+  "img": "flagimg/lgb.png",
+  "cat": "region:other,color:red,color:orange,color:yellow,color:green,color:blue,color:purple,shape:horizontal,type:organization,type:political,pattern:banded",
+  "terms": "LGBTQ+, Gay, Lesbian, Bisexual"
+},
+"transgender": {
+  "name": "Transgender",
+  "subtext": "1999-Present",
+  "img": "flagimg/transgender.png",
+  "cat": "region:other,color:blue,color:pink,color:white,shape:horizontal,type:political,pattern:banded",
+  "terms": "Woke, LGBTQ+"
+},
+"nchq": {
+  "name": "NiceCar HQ",
+  "subtext": "2023-2024",
+  "img": "flagimg/nchq.png",
+  "cat": "region:namerica,color:white,color:black,shape:diagonal,shape:cross,shape:triangle,type:organization,pattern:solid",
+  "terms": "NCHQ"
+},
+"north_ie": {
+  "name": "Northern Ireland",
+  "subtext": "2021-Present",
+  "img": "flagimg/north_ie.png",
+  "cat": "region:europe,color:red,color:white,shape:diagonal,shape:cross,type:province"
+},
+"ag": {
+  "name": "Antigua and Barbuda",
+  "subtext": "1967-Present",
+  "img": "flagimg/ag.png",
+  "cat": "region:namerica,color:red,color:yellow,color:blue,color:white,color:black,shape:horizontal,shape:triangle,item:1star,item:sun,type:country"
+},
+"bs": {
+  "name": "Bahamas",
+  "subtext": "1973-Present",
+  "img": "flagimg/bs.png",
+  "cat": "region:namerica,color:yellow,color:blue,color:black,shape:horizontal,shape:chevron,shape:triangle,type:country,pattern:banded"
+},
+"bb": {
+  "name": "Barbados",
+  "subtext": "1966-Present",
+  "img": "flagimg/bb.png",
+  "cat": "region:namerica,color:yellow,color:blue,color:black,shape:vertical,item:emblem,type:country,pattern:banded"
+},
+"bz": {
+  "name": "Belize",
+  "subtext": "1981-Present",
+  "img": "flagimg/bz.png",
+  "cat": "region:namerica,color:red,color:yellow,color:blue,color:white,color:black,color:brown,shape:horizontal,item:emblem,item:human,type:country,pattern:banded"
+},
+"ca": {
+  "name": "Canada",
+  "subtext": "1965-Present",
+  "img": "flagimg/ca.png",
+  "cat": "region:namerica,color:red,color:white,shape:vertical,item:emblem,type:country,pattern:banded"
+},
+"cr": {
+  "name": "Costa Rica",
+  "subtext": "1906-Present",
+  "img": "flagimg/cr.png",
+  "cat": "region:namerica,color:red,color:blue,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"cu": {
+  "name": "Cuba",
+  "subtext": "1902-Present",
+  "img": "flagimg/cu.png",
+  "cat": "region:namerica,color:red,color:blue,color:white,shape:horizontal,shape:chevron,shape:triangle,item:1star,type:country,pattern:banded"
+},
+"dm": {
+  "name": "Dominica",
+  "subtext": "1990-Present",
+  "img": "flagimg/dm.png",
+  "cat": "region:namerica,color:red,color:yellow,color:green,color:purple,color:white,color:black,color:brown,shape:horizontal,shape:vertical,shape:cross,shape:circle,item:5star,item:animal,item:emblem,type:country,pattern:solid"
+},
+"do": {
+  "name": "Dominican Republic",
+  "subtext": "1908-Present",
+  "img": "flagimg/do.png",
+  "cat": "region:namerica,color:red,color:yellow,color:green,color:blue,color:white,color:black,shape:horizontal,shape:vertical,shape:cross,item:text,item:emblem,type:country,pattern:checkered"
+},
+"sv": {
+  "name": "El Salvador",
+  "subtext": "1912-Present",
+  "img": "flagimg/sv.png",
+  "cat": "region:namerica,color:red,color:orange,color:yellow,color:green,color:blue,color:white,color:black,shape:horizontal,shape:triangle,item:text,item:emblem,type:country,pattern:banded,pattern:gradient"
+},
+"gd": {
+  "name": "Grenada",
+  "subtext": "1974-Present",
+  "img": "flagimg/gd.png",
+  "cat": "color:red,color:yellow,color:green,shape:chevron,shape:circle,shape:triangle,item:5star,type:country"
+},
+"roflandia": {
+  "name": "Roflandia",
+  "subtext": "2024",
+  "img": "flagimg/roflandia.png",
+  "cat": "region:other,color:green,color:blue,color:black,shape:horizontal,type:micro,pattern:banded"
+},
+"tr": {
+  "name": "Türkiye",
+  "subtext": "1936-Present",
+  "img": "flagimg/tr.png",
+  "cat": "region:europe,region:asia,color:red,color:white,item:1star,item:moon,type:country,pattern:solid",
+  "terms": "Turkey, Turkiye"
+},
+"ge": {
+  "name": "Georgia",
+  "subtext": "2004-Present",
+  "img": "flagimg/ge.png",
+  "cat": "region:europe,region:asia,color:red,color:white,shape:horizontal,shape:vertical,shape:cross,type:country,pattern:solid"
+},
+"af": {
+  "name": "Afghanistan",
+  "subtext": "2021-Present",
+  "img": "flagimg/af.png",
+  "offensive": true,
+  "cat": "region:asia,color:white,color:black,item:text,type:country,pattern:solid"
+},
+"am": {
+  "name": "Armenia",
+  "subtext": "1990-Present",
+  "img": "flagimg/am.png",
+  "cat": "color:red,color:orange,color:yellow,color:blue,shape:horizontal,type:country,pattern:banded"
+},
+"az": {
+  "name": "Azerbaijan",
+  "subtext": "1991-Present",
+  "img": "flagimg/az.png",
+  "cat": "color:red,color:green,color:blue,color:white,shape:horizontal,item:1star,item:moon,type:country,pattern:banded"
+},
+"bh": {
+  "name": "Bahrain",
+  "subtext": "2002-Present",
+  "img": "flagimg/bh.png",
+  "cat": "region:asia,color:red,color:white,shape:triangle,type:country,pattern:banded"
+},
+"bd": {
+  "name": "Bangladesh",
+  "subtext": "1971-Present",
+  "img": "flagimg/bd.png",
+  "cat": "region:asia,color:red,color:green,shape:circle,type:country,pattern:solid"
+},
+"bt": {
+  "name": "Bhutan",
+  "subtext": "1969-Present",
+  "img": "flagimg/bt.png",
+  "cat": "region:asia,color:orange,color:yellow,color:white,color:black,shape:diagonal,shape:triangle,item:animal,item:emblem,type:country,pattern:banded"
+},
+"bn": {
+  "name": "Brunei",
+  "subtext": "1959-Present",
+  "img": "flagimg/bn.png",
+  "cat": "color:red,color:yellow,color:white,color:black,shape:diagonal,item:text,item:emblem,type:country,pattern:banded"
+},
+"kh": {
+  "name": "Cambodia",
+  "subtext": "1993-Present",
+  "img": "flagimg/kh.png",
+  "cat": "region:asia,color:red,color:blue,color:white,color:black,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"cn": {
+  "name": "China",
+  "subtext": "1949-Present",
+  "img": "flagimg/cn.png",
+  "cat": "region:asia,color:red,color:yellow,item:5star,type:country,pattern:solid"
+},
+"in": {
+  "name": "India",
+  "subtext": "1947-Present",
+  "img": "flagimg/in.png",
+  "cat": "region:asia,color:orange,color:green,color:blue,color:white,shape:horizontal,shape:circle,item:emblem,type:country,pattern:banded"
+},
+"id": {
+  "name": "Indonesia",
+  "subtext": "1945-Present",
+  "img": "flagimg/id.png",
+  "cat": "region:asia,color:red,color:white,shape:horizontal,type:country,pattern:banded"
+},
+"ir": {
+  "name": "Iran",
+  "subtext": "1980-Present",
+  "img": "flagimg/ir.png",
+  "cat": "region:asia,color:red,color:green,color:white,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"iq": {
+  "name": "Iraq",
+  "subtext": "2008-Present",
+  "img": "flagimg/iq.png",
+  "cat": "region:asia,color:red,color:white,color:black,color:green,shape:horizontal,item:text,type:country,pattern:banded"
+},
+"il": {
+  "name": "Israel",
+  "subtext": "1948-Present",
+  "img": "flagimg/il.png",
+  "cat": "region:asia,color:blue,color:white,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"jp": {
+  "name": "Japan",
+  "subtext": "1999-Present",
+  "img": "flagimg/jp.png",
+  "cat": "region:asia,color:red,color:white,shape:circle,item:emblem,type:country,pattern:solid"
+},
+"jo": {
+  "name": "Jordan",
+  "subtext": "1928-Present",
+  "img": "flagimg/jo.png",
+  "cat": "region:asia,color:black,color:white,color:red,color:green,shape:horizontal,shape:chevron,item:1star,type:country,pattern:banded"
+},
+"kz": {
+  "name": "Kazakhstan",
+  "subtext": "1992-Present",
+  "img": "flagimg/kz.png",
+  "cat": "region:asia,color:blue,color:yellow,shape:circle,item:animal,type:country,pattern:solid"
+},
+"kw": {
+  "name": "Kuwait",
+  "subtext": "1961-Present",
+  "img": "flagimg/kw.png",
+  "cat": "region:asia,color:green,color:white,color:red,color:black,shape:horizontal,shape:chevron,item:emblem,type:country,pattern:banded"
+},
+"kg": {
+  "name": "Kyrgyzstan",
+  "subtext": "1992-Present",
+  "img": "flagimg/kg.png",
+  "cat": "region:asia,color:red,color:yellow,shape:circle,item:emblem,type:country,pattern:solid"
+},
+"la": {
+  "name": "Laos",
+  "subtext": "1975-Present",
+  "img": "flagimg/la.png",
+  "cat": "region:asia,color:red,color:blue,color:white,shape:horizontal,shape:circle,item:emblem,type:country,pattern:banded"
+},
+"lb": {
+  "name": "Lebanon",
+  "subtext": "1943-Present",
+  "img": "flagimg/lb.png",
+  "cat": "region:asia,color:red,color:white,color:green,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"my": {
+  "name": "Malaysia",
+  "subtext": "1963-Present",
+  "img": "flagimg/my.png",
+  "cat": "region:asia,color:red,color:white,color:blue,color:yellow,shape:horizontal,item:moon,item:star,type:country,pattern:banded"
+},
+"mv": {
+  "name": "Maldives",
+  "subtext": "1965-Present",
+  "img": "flagimg/mv.png",
+  "cat": "region:asia,color:red,color:green,color:white,shape:horizontal,item:moon,type:country,pattern:banded"
+},
+"mn": {
+  "name": "Mongolia",
+  "subtext": "1992-Present",
+  "img": "flagimg/mn.png",
+  "cat": "region:asia,color:red,color:blue,color:yellow,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"mm": {
+  "name": "Myanmar",
+  "subtext": "2010-Present",
+  "img": "flagimg/mm.png",
+  "cat": "region:asia,color:yellow,color:green,color:red,color:white,shape:horizontal,item:star,type:country,pattern:banded"
+},
+"np": {
+  "name": "Nepal",
+  "subtext": "1962-Present",
+  "img": "flagimg/np.png",
+  "cat": "region:asia,color:red,color:blue,color:white,shape:triangle,item:sun,item:moon,type:country,pattern:solid"
+},
+"kp": {
+  "name": "North Korea",
+  "subtext": "1948-Present",
+  "img": "flagimg/kp.png",
+  "cat": "region:asia,color:red,color:white,color:blue,color:black,shape:horizontal,item:star,type:country,pattern:banded"
+},
+"om": {
+  "name": "Oman",
+  "subtext": "1995-Present",
+  "img": "flagimg/om.png",
+  "cat": "region:asia,color:red,color:white,color:green,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"pk": {
+  "name": "Pakistan",
+  "subtext": "1947-Present",
+  "img": "flagimg/pk.png",
+  "cat": "region:asia,color:green,color:white,shape:horizontal,item:moon,item:star,type:country,pattern:banded"
+},
+"ps": {
+  "name": "Palestine",
+  "subtext": "1964-Present",
+  "img": "flagimg/ps.png",
+  "offensive": true,
+  "cat": "region:asia,color:black,color:white,color:green,color:red,shape:horizontal,type:country,pattern:banded"
+},
+"ph": {
+  "name": "Philippines",
+  "subtext": "1998-Present",
+  "img": "flagimg/ph.png",
+  "cat": "region:asia,color:blue,color:red,color:white,color:yellow,shape:horizontal,item:sun,item:star,type:country,pattern:banded"
+},
+"qa": {
+  "name": "Qatar",
+  "subtext": "1971-Present",
+  "img": "flagimg/qa.png",
+  "cat": "region:asia,color:red,color:white,shape:vertical,shape:chevron,type:country,pattern:banded"
+},
+"sa": {
+  "name": "Saudi Arabia",
+  "subtext": "1932-Present",
+  "img": "flagimg/sa.png",
+  "cat": "region:asia,color:green,color:white,shape:horizontal,item:text,item:emblem,type:country,pattern:banded"
+},
+"sg": {
+  "name": "Singapore",
+  "subtext": "1959-Present",
+  "img": "flagimg/sg.png",
+  "cat": "region:asia,color:red,color:white,color:blue,shape:horizontal,item:moon,item:star,type:country,pattern:banded"
+},
+"kr": {
+  "name": "South Korea",
+  "subtext": "1948-Present",
+  "img": "flagimg/kr.png",
+  "cat": "region:asia,color:white,color:red,color:blue,color:black,shape:circle,item:emblem,type:country,pattern:solid"
+},
+"lk": {
+  "name": "Sri Lanka",
+  "subtext": "1978-Present",
+  "img": "flagimg/lk.png",
+  "cat": "region:asia,color:red,color:yellow,color:green,color:orange,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"sy": {
+  "name": "Syria",
+  "subtext": "1980-Present",
+  "img": "flagimg/sy.png",
+  "cat": "region:asia,color:red,color:white,color:black,color:green,shape:horizontal,item:star,type:country,pattern:banded"
+},
+"tw": {
+  "name": "Taiwan",
+  "subtext": "1928-Present",
+  "img": "flagimg/tw.png",
+  "cat": "region:asia,color:red,color:blue,color:white,shape:horizontal,item:sun,type:country,pattern:banded",
+  "terms": "China"
+},
+"tj": {
+  "name": "Tajikistan",
+  "subtext": "1992-Present",
+  "img": "flagimg/tj.png",
+  "cat": "region:asia,color:red,color:white,color:green,shape:horizontal,item:emblem,type:country,pattern:banded"
+},
+"th": {
+  "name": "Thailand",
+  "subtext": "1917-Present",
+  "img": "flagimg/th.png",
+  "cat": "region:asia,color:red,color:white,color:blue,shape:horizontal,type:country,pattern:banded"
+},
+"tm": {
+  "name": "Turkmenistan",
+  "subtext": "1997-Present",
+  "img": "flagimg/tm.png",
+  "cat": "region:asia,color:green,color:white,color:red,color:blue,shape:horizontal,shape:vertical,item:moon,item:star,type:country,pattern:banded"
+},
+"ae": {
+  "name": "United Arab Emirates",
+  "subtext": "1971-Present",
+  "img": "flagimg/ae.png",
+  "cat": "region:asia,color:red,color:white,color:green,color:black,shape:horizontal,shape:vertical,type:country,pattern:banded"
+},
+"uz": {
+  "name": "Uzbekistan",
+  "subtext": "1991-Present",
+  "img": "flagimg/uz.png",
+  "cat": "region:asia,color:blue,color:white,color:green,color:red,shape:horizontal,item:moon,item:star,type:country,pattern:banded"
+},
+"vn": {
+  "name": "Vietnam",
+  "subtext": "1976-Present",
+  "img": "flagimg/vn.png",
+  "cat": "region:asia,color:red,color:yellow,shape:solid,item:star,type:country,pattern:solid"
+},
+"svn": {
+  "name": "South Vietnam",
+  "subtext": "1955-1975",
+  "img": "flagimg/svn.png",
+  "historical": true,
+  "cat": "region:asia,color:red,color:yellow,shape:horizontal,type:country,pattern:banded"
+},
+"ye": {
+  "name": "Yemen",
+  "subtext": "1990-Present",
+  "img": "flagimg/ye.png",
+  "cat": "region:asia,color:red,color:white,color:black,shape:horizontal,type:country,pattern:banded"
+},
+"grotonschool": {
+  "name": "Groton School",
+  "subtext": "?-Present",
+  "img": "flagimg/ye.png",
+  "cat": "region:namerica,color:red,color:white,color:black,shape:horizontal,type:country,pattern:banded"
+},
+"gdrsd": {
+  "name": "Groton-Dunstable School",
+  "subtext": "2024-Present (Unofficial)",
+  "img": "flagimg/gdrsd.png",
+  "cat": "region:namerica,color:red,color:white,color:black,shape:horizontal,item:3star,type:school,pattern:banded,type:unofficial"
+},
+"earth": {
+  "name": "Earth",
+  "subtext": "2015-Present",
+  "img": "flagimg/earth.png",
+  "cat": "region:other,color:blue,color:white,shape:circle,type:planet,pattern:solid"
+},
+"us1775": {
+  "name": "United States",
+  "subtext": "1775-1777",
+  "img": "flagimg/us1775.png",
+  "historical": true,
+  "cat": "region:namerica,color:red,color:blue,color:white,shape:horizontal,shape:vertical,type:country,pattern:banded",
+  "terms": "USA, America"
+},
+"us1777": {
+  "name": "United States",
+  "subtext": "1777-1795",
+  "img": "flagimg/us1777.png",
+  "historical": true,
+  "cat": "region:namerica,color:red,color:blue,color:white,shape:horizontal,item:5star,type:country,pattern:banded",
+  "terms": "USA, America"
+},
+"us1795": {
+  "name": "United States",
+  "subtext": "1795-1818",
+  "img": "flagimg/us1795.png",
+  "historical": true,
+  "cat": "region:namerica,color:red,color:blue,color:white,shape:horizontal,item:5star,type:country,pattern:banded",
+  "terms": "USA, America"
+},
+"us1818": {
+  "name": "United States",
+  "subtext": "1818-1819",
+  "img": "flagimg/us1818.png",
+  "historical": true,
+  "cat": "region:namerica,color:red,color:blue,color:white,shape:horizontal,item:5star,type:country,pattern:banded",
+  "terms": "USA, America"
+},
+"us1819": {
+  "name": "United States",
+  "subtext": "1818-1820",
+  "img": "flagimg/us1819.png",
+  "historical": true,
+  "cat": "region:namerica,color:red,color:blue,color:white,shape:horizontal,item:5star,type:country,pattern:banded",
+  "terms": "USA, America"
+},
+"af2013": {
+  "name": "Afghanistan",
+  "subtext": "2013-2021",
+  "img": "flagimg/af2013.png",
+  "historical": true,
+  "cat": "region:asia,color:red,color:green,color:white,color:black,shape:vertical,item:text,item:emblem,type:country,pattern:banded"
+},
+"us_ma_groton": {
+  "name": "Groton, MA [USA]",
+  "subtext": "2024-Present (Unofficial)",
+  "img": "flagimg/us_ma_groton.png",
+  "cat": "region:namerica,color:yellow,color:blue,color:white,shape:vertical,item:emblem,type:town,type:unofficial,pattern:banded"
+},
+"hwe": {
+  "name": "Holy Roman Empire",
+  "subtext": "1430-1806",
+  "img": "flagimg/hwe.png",
+  "historical": true,
+  "cat": "region:europe,color:red,color:yellow,color:white,color:black,item:animal,item:emblem,type:country,pattern:solid",
+  "terms": "Germany, Deutschland"
+},
+"prussia": {
+  "name": "Prussia",
+  "subtext": "1803-1892",
+  "img": "flagimg/prussia.png",
+  "historical": true,
+  "cat": "region:europe,color:red,color:yellow,color:white,color:black,item:animal,item:emblem,type:country,pattern:solid",
+  "terms": "Germany, Deutschland"
+},
+"de1848": {
+  "name": "Germany",
+  "subtext": "1848-1852",
+  "img": "flagimg/de1848.png",
+  "historical": true,
+  "cat": "region:europe,color:red,color:yellow,color:black,shape:horizontal,item:animal,item:emblem,type:country,pattern:banded",
+  "terms": "Deutschland"
+},
+"de1933": {
+  "name": "Germany",
+  "subtext": "1933-1935",
+  "img": "flagimg/de1933.png",
+  "historical": true,
+  "cat": "region:europe,color:red,color:white,color:black,shape:horizontal,type:country,pattern:banded",
+  "terms": "Deutschland"
+},
+"de1935": {
+  "name": "Germany",
+  "subtext": "1935-1945",
+  "img": "flagimg/de1935.png",
+  "historical": true,
+  "offensive": true,
+  "cat": "region:europe,color:red,color:white,color:black,shape:horizontal,shape:circle,item:emblem,type:country,pattern:banded",
+  "terms": "Deutschland, Hitler, Nazi Germany"
+},
+"hk": {
+  "name": "Hong Kong",
+  "subtext": "1997-Present",
+  "img": "flagimg/hk.png",
+  "cat": "region:asia,color:red,color:white,item:5star,item:emblem,type:territory,pattern:solid"
+},
+"qing": {
+  "name": "Qing Dynasty",
+  "subtext": "1862-1889",
+  "img": "flagimg/qing.png",
+  "historical": true,
+  "cat": "region:asia,color:red,color:yellow,color:green,color:blue,color:white,color:black,item:animal,item:sun,item:emblem,type:country,pattern:solid",
+  "terms": "China, Taiwan"
+},
+"cn1912": {
+  "name": "China",
+  "subtext": "1912-1928",
+  "img": "flagimg/cn1912.png",
+  "historical": true,
+  "cat": "region:asia,color:red,color:yellow,color:blue,color:white,color:black,shape:horizontal,type:country,pattern:banded",
+  "terms": "China, Taiwan"
+},
+"cn1928": {
+  "name": "China",
+  "subtext": "1928-1949",
+  "img": "flagimg/tw.png",
+  "historical": true,
+  "cat": "region:asia,color:red,color:blue,color:white,shape:horizontal,item:sun,type:country,pattern:banded",
+  "terms": "Taiwan"
+},
+"jp1889": {
+  "name": "Japan",
+  "subtext": "1889-1945",
+  "img": "flagimg/jp1889.png",
+  "historical": true,
+  "offensive": true,
+  "cat": "region:asia,color:red,color:white,shape:horizontal,shape:vertical,shape:diagonal,shape:circle,item:sun,type:country,pattern:solid",
+  "terms": "Japanese"
+}
+}

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flag Registration Tool</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f2f5;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .form-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 25px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .form-group input[type="text"],
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      resize: vertical;
+    }
+
+    .category-group {
+      margin-bottom: 15px;
+    }
+
+    .category-group h3 {
+      margin-bottom: 10px;
+      color: #333;
+      font-size: 18px;
+    }
+
+    .categories-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .category-item {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+    }
+
+    .category-item input {
+      margin-right: 6px;
+    }
+
+    #generate-button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #generate-button:hover {
+      background-color: #218838;
+    }
+
+    #output-container {
+      margin-top: 30px;
+    }
+
+    #output-container label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    #output {
+      width: 100%;
+      height: 200px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f9fa;
+      font-family: monospace;
+      white-space: pre-wrap;
+      overflow-y: auto;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .categories-container {
+        flex-direction: column;
+      }
+
+      .category-item {
+        margin-right: 0;
+      }
+    }
+
+    /* Additional Styles for Offensive Flag */
+    .form-group.inline-label {
+      display: flex;
+      align-items: center;
+    }
+
+    .form-group.inline-label input[type="checkbox"] {
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .form-group.inline-label label {
+      font-weight: normal;
+      color: #555;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Flag Registration Tool</h1>
+
+  <div class="form-container">
+    <div class="form-group">
+      <label for="flag-id">Flag ID</label>
+      <input type="text" id="flag-id" placeholder="e.g., us, pl, jp" required>
+      <small style="color: #888;">*This should be a unique key without spaces.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="flag-name">Flag Name</label>
+      <input type="text" id="flag-name" placeholder="e.g., United States" required>
+    </div>
+
+    <div class="form-group">
+      <label for="flag-subtext">Subtext</label>
+      <input type="text" id="flag-subtext" placeholder="e.g., 1960-Present">
+      <small style="color: #888;">*Typically includes the adoption year and current status. Leave blank if not applicable.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="flag-img">Image Name</label>
+      <input type="text" id="flag-img" placeholder="e.g., us.png">
+      <small style="color: #888;">*Ensure the image is placed in the 'flagimg' folder. If left blank, 'flagimg/id.png' will be used.</small>
+    </div>
+
+    <!-- New Form Group for Historical Flag Checkbox -->
+    <div class="form-group inline-label">
+      <input type="checkbox" id="flag-historical">
+      <label for="flag-historical">Mark as Historical</label>
+    </div>
+
+    <!-- New Form Group for Offensive Flag Checkbox -->
+    <div class="form-group inline-label">
+      <input type="checkbox" id="flag-offensive">
+      <label for="flag-offensive">Mark as Offensive</label>
+    </div>
+
+    <!-- New Form Group for Terms Input -->
+    <div class="form-group">
+      <label for="flag-terms">Search Terms</label>
+      <input type="text" id="flag-terms" placeholder="e.g., Vietnam War, Republic">
+      <small style="color: #888;">*Add comma-separated terms to enhance search functionality.</small>
+    </div>
+
+    <div class="form-group">
+      <label>Categories</label>
+      <div class="categories-container" id="categories-container">
+        <!-- Category checkboxes will be dynamically loaded here -->
+      </div>
+    </div>
+
+    <button id="generate-button">Generate JSON Snippet</button>
+
+    <div id="output-container">
+      <label for="output">Generated JSON:</label>
+      <textarea id="output" readonly></textarea>
+    </div>
+  </div>
+
+  <script>
+    // Global variables to store category data
+    let categoriesData = {};
+
+    // Function to load categories from catreg.json
+    function loadCategories() {
+      fetch('catreg.json')
+        .then(response => response.json())
+        .then(data => {
+          categoriesData = data;
+          populateCategories();
+        })
+        .catch(error => {
+          console.error('Error loading categories:', error);
+          alert('Failed to load categories. Please ensure catreg.json is present.');
+        });
+    }
+
+    // Function to populate category checkboxes
+    function populateCategories() {
+      const categoriesContainer = document.getElementById('categories-container');
+
+      for (const group in categoriesData) {
+        const groupDiv = document.createElement('div');
+        groupDiv.className = 'category-group';
+
+        const groupTitle = document.createElement('h3');
+        groupTitle.textContent = capitalizeFirstLetter(group);
+        groupDiv.appendChild(groupTitle);
+
+        const groupCategories = document.createElement('div');
+        groupCategories.className = 'categories-container';
+
+        for (const catKey in categoriesData[group]) {
+          const categoryItem = document.createElement('div');
+          categoryItem.className = 'category-item';
+
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.id = `${group}:${catKey}`;
+          checkbox.value = `${group}:${catKey}`;
+
+          const label = document.createElement('label');
+          label.htmlFor = `${group}:${catKey}`;
+          label.textContent = categoriesData[group][catKey].name;
+
+          categoryItem.appendChild(checkbox);
+          categoryItem.appendChild(label);
+          groupCategories.appendChild(categoryItem);
+        }
+
+        groupDiv.appendChild(groupCategories);
+        categoriesContainer.appendChild(groupDiv);
+      }
+    }
+
+    // Function to capitalize first letter
+    function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    // Function to generate JSON snippet
+    function generateJSON() {
+      const flagId = document.getElementById('flag-id').value.trim();
+      const flagName = document.getElementById('flag-name').value.trim();
+      const flagSubtext = document.getElementById('flag-subtext').value.trim();
+      let flagImg = document.getElementById('flag-img').value.trim();
+      const flagHistorical = document.getElementById('flag-historical').checked;
+      const flagOffensive = document.getElementById('flag-offensive').checked;
+      const flagTerms = document.getElementById('flag-terms').value.trim();
+
+      if (!flagId || !flagName) {
+        alert('Please fill in the required fields: Flag ID and Flag Name.');
+        return;
+      }
+
+      // Handle Image Path
+      if (flagImg) {
+        // Ensure the image name ends with '.png'
+        if (!flagImg.toLowerCase().endsWith('.png')) {
+          flagImg += '.png';
+        }
+        // Prepend 'flagimg/' if not already present
+        if (!flagImg.startsWith('flagimg/')) {
+          flagImg = 'flagimg/' + flagImg;
+        }
+      } else {
+        // If img is left blank, use 'flagimg/id.png'
+        flagImg = `flagimg/${flagId}.png`;
+      }
+
+      // Collect selected categories
+      const selectedCategories = Array.from(document.querySelectorAll('#categories-container input[type="checkbox"]:checked'))
+                                      .map(checkbox => checkbox.value);
+
+      if (selectedCategories.length === 0) {
+        alert('Please select at least one category.');
+        return;
+      }
+
+      // Generate the 'cat' string
+      const catString = selectedCategories.join(',');
+
+      // Start building the JSON string
+      let flagEntry = `"${flagId}": {
+  "name": "${flagName}",`;
+
+      // Add subtext only if it's provided
+      if (flagSubtext) {
+        flagEntry += `
+  "subtext": "${flagSubtext}",`;
+      }
+
+      flagEntry += `
+  "img": "${flagImg}",`;
+
+      // Add historical only if it's true
+      if (flagHistorical) {
+        flagEntry += `
+  "historical": true,`;
+      }
+
+      // Add offensive only if it's true
+      if (flagOffensive) {
+        flagEntry += `
+  "offensive": true,`;
+      }
+
+      flagEntry += `
+  "cat": "${catString}",`;
+
+      // Add terms only if provided
+      if (flagTerms) {
+        // Ensure terms are comma-separated and trimmed
+        const formattedTerms = flagTerms.split(',').map(term => term.trim()).join(', ');
+        flagEntry += `
+  "terms": "${formattedTerms}"`;
+      } else {
+        // Remove the trailing comma from 'cat' if terms are not added
+        flagEntry = flagEntry.replace(/,\s*$/, '');
+      }
+
+      flagEntry += `
+}`;
+
+      // Display the generated JSON
+      document.getElementById('output').value = flagEntry;
+    }
+
+    // Event listener for generate button
+    document.getElementById('generate-button').addEventListener('click', generateJSON);
+
+    // Load categories on page load
+    window.onload = loadCategories;
+  </script>
+</body>
+</html>

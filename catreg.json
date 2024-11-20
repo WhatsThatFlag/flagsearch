@@ -1,0 +1,173 @@
+{
+    "region": {
+      "namerica": {
+        "name": "🌎 North America"
+      },
+      "europe": {
+        "name": "🌍 Europe"
+      },
+      "asia": {
+        "name": "🌏 Asia"
+      },
+      "africa": {
+        "name": "🌍 Africa"
+      },
+      "samerica": {
+        "name": "🌎 South America"
+      },
+      "oceania": {
+        "name": "🌏 Oceania"
+      },
+      "other": {
+        "name": "🌐 Other"
+      }
+    },
+    "color": {
+      "red": {
+        "name": "🔴 Red"
+      },
+      "orange": {
+        "name": "🟠 Orange"
+      },
+      "yellow": {
+        "name": "🟡 Yellow"
+      },
+      "green": {
+        "name": "🟢 Green"
+      },
+      "blue": {
+        "name": "🔵 Blue"
+      },
+      "purple": {
+        "name": "🟣 Purple"
+      },
+      "pink": {
+        "name": "🌸 Pink"
+      },
+      "white": {
+        "name": "⚪ White"
+      },
+      "black": {
+        "name": "⚫ Black"
+      },
+      "brown": {
+        "name": "🟤 Brown"
+      },
+      "gray": {
+        "name": "⚪ Gray"
+      }
+    },
+    "shape": {
+      "horizontal": {
+        "name": "↔︎ Horizontal Lines"
+      },
+      "vertical": {
+        "name": "↕︎ Vertical Lines"
+      },
+      "nordic": {
+        "name": "Nordic Cross"
+      },
+      "diagonal": {
+        "name": "↗︎ Diagonal Lines"
+      },
+      "chevron": {
+        "name": "🔺 Chevron"
+      },
+      "cross": {
+        "name": "✝ Cross"
+      },
+      "circle": {
+        "name": "⭕ Circle"
+      },
+      "triangle": {
+        "name": "🔺 Triangle"
+      }
+    },
+    "item": {
+      "1star": {
+        "name": "⭐ 1 Star"
+      },
+      "2star": {
+        "name": "⭐ 2 Stars"
+      },
+      "3star": {
+        "name": "⭐ 3 Stars"
+      },
+      "4star": {
+        "name": "⭐ 4 Stars"
+      },
+      "5star": {
+        "name": "✨ 5+ Stars"
+      },
+      "text": {
+        "name": "🅰️ Text"
+      },
+      "animal": {
+        "name": "🦅 Animal"
+      },
+      "human": {
+        "name": "✋ Human"
+      },
+      "sun": {
+        "name": "☀️ Sun"
+      },
+      "moon": {
+        "name": "🌙 Moon"
+      },
+      "emblem": {
+        "name": "🏰 Emblem"
+      }
+    },
+    "type": {
+      "country": {
+        "name": "Country"
+      },
+      "territory": {
+        "name": "Territory"
+      },
+      "micro": {
+        "name": "Micronation"
+      },
+      "organization": {
+        "name": "Organization"
+      },
+      "province": {
+        "name": "Province"
+      },
+      "state": {
+        "name": "State"
+      },
+      "city": {
+        "name": "City"
+      },
+      "town": {
+        "name": "Town"
+      },
+      "political": {
+        "name": "Political"
+      },
+      "school": {
+        "name": "School"
+      },
+      "planet": {
+        "name": "Planet"
+      },
+      "unofficial": {
+        "name": "Unofficial"
+      }
+    },
+    "pattern": {
+      "solid": {
+        "name": "⬛ Solid"
+      },
+      "banded": {
+        "name": "🟥 Banded"
+      },
+      "checkered": {
+        "name": "⬜ Checkered"
+      },
+      "gradient": {
+        "name": "🌈 Gradient"
+      }
+    }
+  }
