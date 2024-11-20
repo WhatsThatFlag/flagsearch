@@ -522,8 +522,8 @@
   "img": "flagimg/gd.png",
   "cat": "color:red,color:yellow,color:green,shape:chevron,shape:circle,shape:triangle,item:5star,type:country"
 },
-"roflandia": {
-  "name": "Roflandia",
+"rofland": {
+  "name": "Rofland",
   "subtext": "2024",
   "img": "flagimg/roflandia.png",
   "cat": "region:other,color:green,color:blue,color:black,shape:horizontal,type:micro,pattern:banded"
